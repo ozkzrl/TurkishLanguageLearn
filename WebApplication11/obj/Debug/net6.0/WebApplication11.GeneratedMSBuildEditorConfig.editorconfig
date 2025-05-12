@@ -8,101 +8,101 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication11
 build_property.RootNamespace = WebApplication11
-build_property.ProjectDir = C:\Users\binkunduz\Desktop\turkischpractices-main\WebApplication11\
+build_property.ProjectDir = C:\Users\binkunduz\Desktop\Türkish Language Learn\WebApplication11\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\binkunduz\Desktop\turkischpractices-main\WebApplication11
+build_property.MSBuildProjectDirectory = C:\Users\binkunduz\Desktop\Türkish Language Learn\WebApplication11
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Alphabet/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Alphabet/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxwaGFiZXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Alphabet/_ImagesPartial.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Alphabet/_ImagesPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxwaGFiZXRcX0ltYWdlc1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Conjugation/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Conjugation/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uanVnYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Conjugation/_Layout.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Conjugation/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uanVnYXRpb25cX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Dialog/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Dialog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhbG9nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Esanlamli/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Esanlamli/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNhbmxhbWxpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Home/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/iyeliklicumle/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/iyeliklicumle/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaXllbGlrbGljdW1sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/kelimesec/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/kelimesec/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca2VsaW1lc2VjXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Letter/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Letter/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV0dGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Month/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Month/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9udGhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/SahisEki1/index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/SahisEki1/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FoaXNFa2kxXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/SahisEki/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/SahisEki/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FoaXNFa2lcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Sahis/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Sahis/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FoaXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/SelectSeason/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/SelectSeason/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZWN0U2Vhc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/SesliUyumu/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/SesliUyumu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzbGlVeXVtdVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Shared/Error.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/surukle/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/surukle/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3VydWtsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/ThisWortTwo/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/ThisWortTwo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhpc1dvcnRUd29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/ThisWort/Index.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/ThisWort/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhpc1dvcnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/_ViewImports.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/binkunduz/Desktop/turkischpractices-main/WebApplication11/Views/Shared/_Layout.cshtml]
+[C:/Users/binkunduz/Desktop/Türkish Language Learn/WebApplication11/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1ggyr4rskt

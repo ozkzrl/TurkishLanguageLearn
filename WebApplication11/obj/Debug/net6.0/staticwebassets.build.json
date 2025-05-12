@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ee1qIQKHEqNpydnsu9DpFeN2lsYLt0bmoaRNH4hX91U=",
+  "Hash": "KBleQ6gbqMARbVsHVyQwY4RmaSVMlqGm7fGs0Jbkem4=",
   "Source": "WebApplication11",
   "BasePath": "_content/WebApplication11",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebApplication11\\wwwroot",
       "Source": "WebApplication11",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication11.styles.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication11.styles.css",
       "SourceId": "WebApplication11",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "WebApplication11.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication11.styles.css"
+      "OriginalItemSpec": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication11.styles.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication11.bundle.scp.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication11.bundle.scp.css",
       "SourceId": "WebApplication11",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "WebApplication11.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication11.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication11.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\css\\styles.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\favicon.ico",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\at.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\at.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/at.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\at.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\deve.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\deve.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/deve.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\deve.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\horoz.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\horoz.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/horoz.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\horoz.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\inek.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\inek.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/inek.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\inek.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\kartal.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\kartal.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/kartal.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\kartal.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\kedi.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\kedi.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/kedi.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\kedi.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\koç.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\koç.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/koç.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\koç.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\koyun.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\koyun.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/koyun.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\koyun.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\köpek.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\köpek.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/köpek.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\köpek.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\öküz.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\öküz.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/öküz.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\öküz.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\animals\\tavuk.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\animals\\tavuk.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/animals/tavuk.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\animals\\tavuk.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ağ.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ağ.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ağ.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ağ.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ağaç.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ağaç.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ağaç.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ağaç.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ağlamak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ağlamak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ağlamak.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ağlamak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\araba.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\araba.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/araba.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\araba.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\at.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\at.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/at.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\at.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\bal.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\bal.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/bal.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\bal.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\balık.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\balık.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/balık.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\balık.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\beş.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\beş.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/beş.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\beş.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\bilgisayar.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\bilgisayar.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/bilgisayar.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\bilgisayar.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\cadde.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\cadde.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/cadde.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\cadde.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\cam.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\cam.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/cam.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\cam.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\casus.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\casus.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/casus.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\casus.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\çay.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\çay.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/çay.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\çay.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\çiçek.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\çiçek.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/çiçek.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\çiçek.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\çocuk.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\çocuk.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/çocuk.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\çocuk.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\daire.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\daire.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/daire.png",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\daire.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\defter.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\defter.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/defter.png",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\defter.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\domuz.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\domuz.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/domuz.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\domuz.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\dünya.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\dünya.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/dünya.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\dünya.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\eğlence.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\eğlence.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/eğlence.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\eğlence.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ekmek.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ekmek.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ekmek.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ekmek.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ev.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ev.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ev.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ev.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\fabrika.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\fabrika.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/fabrika.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\fabrika.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\fakir.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\fakir.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/fakir.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\fakir.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\fare.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\fare.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/fare.png",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\fare.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\gazete.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\gazete.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/gazete.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\gazete.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\gemi.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\gemi.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/gemi.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\gemi.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\genç.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\genç.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/genç.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\genç.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\halı.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\halı.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/halı.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\halı.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\hapishane.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\hapishane.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/hapishane.png",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\hapishane.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\horoz.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\horoz.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/horoz.png",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\horoz.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ırmak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ırmak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ırmak.png",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ırmak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ışık.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ışık.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ışık.png",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ışık.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\içmek.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\içmek.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/içmek.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\içmek.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ihtiyar.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ihtiyar.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ihtiyar.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ihtiyar.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\iki.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\iki.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/iki.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\iki.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\japonya.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\japonya.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/japonya.png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\japonya.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\jet.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\jet.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/jet.png",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\jet.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\Jimnastikçi.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\Jimnastikçi.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/Jimnastikçi.png",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\Jimnastikçi.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\kadın.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\kadın.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/kadın.png",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\kadın.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\kale.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\kale.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/kale.png",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\kale.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\kapı.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\kapı.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/kapı.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\kapı.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\lale.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\lale.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/lale.png",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\lale.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\limon.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\limon.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/limon.png",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\limon.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\makas.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\makas.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/makas.png",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\makas.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\masa.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\masa.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/masa.png",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\masa.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\mavi.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\mavi.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/mavi.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\mavi.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\nar.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\nar.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/nar.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\nar.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ocak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ocak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ocak.png",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ocak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ok.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ok.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ok.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ok.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\okumak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\okumak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/okumak.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\okumak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ördek.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ördek.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ördek.png",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ördek.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\pahalı.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\pahalı.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/pahalı.png",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\pahalı.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\palto.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\palto.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/palto.png",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\palto.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\pantolon.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\pantolon.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/pantolon.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\pantolon.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\parmak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\parmak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/parmak.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\parmak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\radio.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\radio.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/radio.png",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\radio.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\reçel.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\reçel.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/reçel.png",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\reçel.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\reçete.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\reçete.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/reçete.png",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\reçete.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\saç.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\saç.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/saç.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\saç.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\sarı.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\sarı.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/sarı.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\sarı.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\sayı.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\sayı.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/sayı.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\sayı.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\şarkısöylemek.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\şarkısöylemek.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/şarkısöylemek.png",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\şarkısöylemek.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\şeker.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\şeker.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/şeker.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\şeker.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\şemsiye.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\şemsiye.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/şemsiye.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\şemsiye.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\taksi.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\taksi.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/taksi.png",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\taksi.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\uçak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\uçak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/uçak.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\uçak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\uydu.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\uydu.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/uydu.png",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\uydu.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\uyumak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\uyumak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/uyumak.png",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\uyumak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ülke.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ülke.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ülke.png",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ülke.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\ütü.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\ütü.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/ütü.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\ütü.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\üye.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\üye.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/üye.png",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\üye.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\vaha.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\vaha.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/vaha.png",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\vaha.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\vapur.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\vapur.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/vapur.png",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\vapur.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\yaz.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\yaz.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/yaz.png",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\yaz.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\yirmi.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\yirmi.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/yirmi.png",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\yirmi.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\zehir.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\zehir.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/zehir.png",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\zehir.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\zengin.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\zengin.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/zengin.png",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\zengin.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\harfresimleri\\zincir.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\harfresimleri\\zincir.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/harfresimleri/zincir.png",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\images\\harfresimleri\\zincir.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\names\\akilli.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\names\\akilli.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/names/akilli.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\names\\akilli.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\names\\asci.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\names\\asci.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/names/asci.png",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\images\\names\\asci.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\names\\mimar.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\names\\mimar.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/names/mimar.png",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\images\\names\\mimar.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\names\\mutlu.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\names\\mutlu.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/names/mutlu.png",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\images\\names\\mutlu.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\names\\ogretmen.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\names\\ogretmen.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/names/ogretmen.png",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\images\\names\\ogretmen.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\names\\oyuncu.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\names\\oyuncu.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/names/oyuncu.png",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\images\\names\\oyuncu.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\names\\sofor.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\names\\sofor.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/names/sofor.png",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\images\\names\\sofor.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\names\\uzgun.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\names\\uzgun.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/names/uzgun.png",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\images\\names\\uzgun.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\names\\uzun.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\names\\uzun.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/names/uzun.png",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\images\\names\\uzun.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\names\\yavas.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\names\\yavas.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/names/yavas.jpg",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\images\\names\\yavas.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\Seasons\\İlkbahar.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\Seasons\\İlkbahar.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/Seasons/İlkbahar.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Seasons\\İlkbahar.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\Seasons\\Kış.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\Seasons\\Kış.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/Seasons/Kış.png",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Seasons\\Kış.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\Seasons\\Sonbahar.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\Seasons\\Sonbahar.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/Seasons/Sonbahar.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Seasons\\Sonbahar.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\Seasons\\Yaz.jpg",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\Seasons\\Yaz.jpg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/Seasons/Yaz.jpg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Seasons\\Yaz.jpg"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\verbs\\basketboloynamak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\verbs\\basketboloynamak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/verbs/basketboloynamak.png",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\images\\verbs\\basketboloynamak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\verbs\\gitarcalmak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\verbs\\gitarcalmak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/verbs/gitarcalmak.png",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\images\\verbs\\gitarcalmak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\verbs\\kosmak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\verbs\\kosmak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/verbs/kosmak.png",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\images\\verbs\\kosmak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\verbs\\okumak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\verbs\\okumak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/verbs/okumak.png",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\images\\verbs\\okumak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\verbs\\sarkisoylemek.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\verbs\\sarkisoylemek.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/verbs/sarkisoylemek.png",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\images\\verbs\\sarkisoylemek.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\verbs\\televizyonseyretmek.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\verbs\\televizyonseyretmek.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/verbs/televizyonseyretmek.png",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\verbs\\televizyonseyretmek.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\verbs\\uyumak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\verbs\\uyumak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/verbs/uyumak.png",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\images\\verbs\\uyumak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\verbs\\yazmak.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\verbs\\yazmak.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/verbs/yazmak.png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\images\\verbs\\yazmak.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\images\\verbs\\yuzmek.png",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\verbs\\yuzmek.png",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "images/verbs/yuzmek.png",
       "AssetKind": "All",
@@ -2006,10 +2006,180 @@
       "OriginalItemSpec": "wwwroot\\images\\verbs\\yuzmek.png"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\words\\apple.jpeg",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
+      "BasePath": "_content/WebApplication11",
+      "RelativePath": "images/words/apple.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\words\\apple.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\words\\Book.jpeg",
+      "SourceId": "WebApplication11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
+      "BasePath": "_content/WebApplication11",
+      "RelativePath": "images/words/Book.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\words\\Book.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\words\\bus.jpeg",
+      "SourceId": "WebApplication11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
+      "BasePath": "_content/WebApplication11",
+      "RelativePath": "images/words/bus.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\words\\bus.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\words\\elephant.jpeg",
+      "SourceId": "WebApplication11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
+      "BasePath": "_content/WebApplication11",
+      "RelativePath": "images/words/elephant.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\words\\elephant.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\words\\firefighter.jpeg",
+      "SourceId": "WebApplication11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
+      "BasePath": "_content/WebApplication11",
+      "RelativePath": "images/words/firefighter.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\words\\firefighter.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\words\\hat.jpeg",
+      "SourceId": "WebApplication11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
+      "BasePath": "_content/WebApplication11",
+      "RelativePath": "images/words/hat.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\words\\hat.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\words\\horse.jpeg",
+      "SourceId": "WebApplication11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
+      "BasePath": "_content/WebApplication11",
+      "RelativePath": "images/words/horse.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\words\\horse.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\words\\ship.jpeg",
+      "SourceId": "WebApplication11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
+      "BasePath": "_content/WebApplication11",
+      "RelativePath": "images/words/ship.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\words\\ship.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\words\\soldier.jpeg",
+      "SourceId": "WebApplication11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
+      "BasePath": "_content/WebApplication11",
+      "RelativePath": "images/words/soldier.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\words\\soldier.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\images\\words\\table.png",
+      "SourceId": "WebApplication11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
+      "BasePath": "_content/WebApplication11",
+      "RelativePath": "images/words/table.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\words\\table.png"
+    },
+    {
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\js\\site.js",
+      "SourceId": "WebApplication11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2023,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2040,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2057,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2074,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2091,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2108,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2125,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2142,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2159,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2176,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2193,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2210,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2227,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2244,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2261,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2278,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2295,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2312,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2329,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2346,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2363,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2380,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2397,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2414,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2431,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2448,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2465,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2482,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2499,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2516,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2533,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2550,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2567,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2584,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2601,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2618,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2635,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2652,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2669,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2686,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2703,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2720,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2737,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2754,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2771,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2788,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2805,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2822,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2839,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2856,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2873,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2890,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2907,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2924,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2941,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2958,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2975,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebApplication11",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\wwwroot\\",
       "BasePath": "_content/WebApplication11",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

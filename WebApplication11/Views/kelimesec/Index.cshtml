@@ -1,81 +1,97 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Doğru Resmi Seç</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-align: center;
-      background: linear-gradient(to right, #ece9e6, #ffffff);
-      padding: 50px;
+      background: linear-gradient(to right, #d7e1ec, #f0f4f8);
+      padding: 40px;
     }
     h1 {
       color: #2c3e50;
-      font-size: 2.5em;
-      margin-bottom: 20px;
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    #score, #timer {
+      font-size: 1.2em;
+      color: #34495e;
+      margin: 10px;
     }
     #word {
       font-size: 2em;
       margin: 20px;
-      color: #34495e;
+      color: #2c3e50;
     }
     .images {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 20px;
-      margin-top: 30px;
+      gap: 25px;
+      margin-top: 20px;
     }
     .image-container {
-      width: 150px;
-      height: 150px;
-      border: 2px solid #ccc;
-      border-radius: 12px;
+      width: 220px;
+      height: 220px;
+      border: 3px solid #ccc;
+      border-radius: 16px;
       overflow: hidden;
       cursor: pointer;
-      transition: transform 0.2s, box-shadow 0.2s;
+      transition: transform 0.3s, box-shadow 0.3s;
     }
     .image-container:hover {
       transform: scale(1.05);
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     }
     .image-container img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
+    #message {
+      margin-top: 30px;
+      font-size: 1.8em;
+      color: #2980b9;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
   <h1>Doğru Resmi Seç</h1>
+  <div id="score">Puan: 0</div>
+  <div id="timer">Süre: 60</div>
   <div id="word"></div>
   <div class="images" id="images"></div>
+  <div id="message"></div>
 
   <script>
-    const words = [
-      "masa", "otobüs", "şapka", "itfaiyeci", "elma",
-      "fil", "gemi", "at", "asker", "kitap"
-    ];
-
+    const words = ["masa", "otobüs", "şapka", "itfaiyeci", "elma", "fil", "gemi", "at", "asker", "kitap"];
     const images = {
-      masa: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Table.jpg/320px-Table.jpg",
-      otobüs: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/City_bus.jpg/320px-City_bus.jpg",
-      şapka: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Hat.jpg/320px-Hat.jpg",
-      itfaiyeci: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Firefighter.jpg/320px-Firefighter.jpg",
-      elma: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/320px-Red_Apple.jpg",
-      fil: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/African_elephant_warning_raised_trunk.jpg/320px-African_elephant_warning_raised_trunk.jpg",
-      gemi: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Cargo_ship.jpg/320px-Cargo_ship.jpg",
-      at: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Horse_in_field.jpg/320px-Horse_in_field.jpg",
-      asker: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Soldiers.jpg/320px-Soldiers.jpg",
-      kitap: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Books.jpg/320px-Books.jpg"
+      masa: "/images/words/table.png",
+      otobüs: "/images/words/bus.jpeg",
+      şapka: "/images/words/hat.jpeg",
+      itfaiyeci: "/images/words/firefighter.jpeg",
+      elma: "/images/words/apple.jpeg",
+      fil: "/images/words/elephant.jpeg",
+      gemi: "/images/words/ship.jpeg",
+      at: "/images/words/horse.jpeg",
+      asker: "/images/words/soldier.jpeg",
+      kitap: "/images/words/Book.jpeg"
     };
+
+    let currentWordIndex = 0;
+    let score = 0;
+    let time = 60;
+    let timerInterval;
 
     const wordDiv = document.getElementById("word");
     const imagesDiv = document.getElementById("images");
-
-    let currentWordIndex = 0;
+    const scoreDiv = document.getElementById("score");
+    const timerDiv = document.getElementById("timer");
+    const messageDiv = document.getElementById("message");
 
     function shuffle(array) {
       for (let i = array.length - 1; i > 0; i--) {
@@ -85,16 +101,34 @@
       return array;
     }
 
+    function updateScore() {
+      scoreDiv.textContent = `Puan: ${score}`;
+    }
+
+    function updateTimer() {
+      timerDiv.textContent = `Süre: ${time}`;
+    }
+
+    function endGame(message) {
+      clearInterval(timerInterval);
+      wordDiv.textContent = "";
+      imagesDiv.innerHTML = "";
+      timerDiv.textContent = "";
+      messageDiv.textContent = message;
+    }
+
     function showNextWord() {
-      if (currentWordIndex >= words.length) {
-        wordDiv.textContent = "Tebrikler! Tüm kelimeleri tamamladınız.";
-        imagesDiv.innerHTML = "";
+      if (currentWordIndex >= words.length || time <= 0) {
+        if (score >= 70) {
+          endGame("Başarılı oldunuz! 🎉");
+        } else {
+          endGame("Başarısız oldunuz. 😞");
+        }
         return;
       }
 
       const word = words[currentWordIndex];
       wordDiv.textContent = `Kelime: ${word}`;
-
       const options = [word];
       const otherWords = words.filter(w => w !== word);
       shuffle(otherWords);
@@ -102,7 +136,6 @@
       shuffle(options);
 
       imagesDiv.innerHTML = "";
-
       options.forEach(opt => {
         const container = document.createElement("div");
         container.className = "image-container";
@@ -113,9 +146,13 @@
 
         container.onclick = () => {
           if (opt === word) {
+            score += 10;
             currentWordIndex++;
+            updateScore();
             showNextWord();
           } else {
+            score -= 10;
+            updateScore();
             container.style.borderColor = "red";
           }
         };
@@ -125,7 +162,25 @@
       });
     }
 
+    function startTimer() {
+      updateTimer();
+      timerInterval = setInterval(() => {
+        time--;
+        updateTimer();
+        if (time <= 0) {
+          if (score >= 70) {
+            endGame("Başarılı oldunuz! 🎉");
+          } else {
+            endGame("Başarısız oldunuz. 😞");
+          }
+        }
+      }, 1000);
+    }
+
+    updateScore();
+    startTimer();
     showNextWord();
   </script>
 </body>
 </html>
+

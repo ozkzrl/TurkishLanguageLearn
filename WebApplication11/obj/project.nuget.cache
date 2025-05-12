@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bHXvLzzRMwf1vqUzyVFxpfN7Ms9MArqUMILxAb5SLdrH3rXvR+32bTZ4sfS7VMLOHe1zW2xmPLwamtRItpoXlA==",
+  "dgSpecHash": "CKZ1WzJY97ogOsPzHahN6E818QvMpnkE6dYWB5gmr4D9dOc3Ob4cC+ZDYWdnZw2TfaNw4c0ekfdQ8y18n28VUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\WebApplication11.csproj",
+  "projectFilePath": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\WebApplication11.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\binkunduz\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\WebApplication11.csproj": {}
+    "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\WebApplication11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\WebApplication11.csproj": {
+    "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\WebApplication11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\WebApplication11.csproj",
+        "projectUniqueName": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\WebApplication11.csproj",
         "projectName": "WebApplication11",
-        "projectPath": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\WebApplication11.csproj",
+        "projectPath": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\WebApplication11.csproj",
         "packagesPath": "C:\\Users\\binkunduz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\binkunduz\\Desktop\\turkischpractices-main\\WebApplication11\\obj\\",
+        "outputPath": "C:\\Users\\binkunduz\\Desktop\\Türkish Language Learn\\WebApplication11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\binkunduz\\AppData\\Roaming\\NuGet\\NuGet.Config"
