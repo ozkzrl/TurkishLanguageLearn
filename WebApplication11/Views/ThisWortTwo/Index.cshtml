@@ -1,0 +1,90 @@
+﻿@model List<WebApplication11.Models.Photo>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harf Resimleri</title>
+    <style>
+        #photo {
+            margin: 20px auto;
+            display: block;
+            border: 4px solid #333;
+            border-radius: 10px;
+            width: 300px;
+            cursor: pointer;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        #description {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img id="photo" alt="Bu ne?" />
+        <div id="description"></div>
+    </div>
+
+    <script>
+        // Load the images from the model passed by the controller
+        const photos = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model));
+
+        let currentIndex = 0;
+        const photoElement = document.getElementById('photo');
+        const descriptionElement = document.getElementById('description');
+
+        // Function to load the current photo
+        function loadPhoto() {
+            const currentPhoto = photos[currentIndex];
+            photoElement.src = currentPhoto.Src;
+
+            // Determine the suffix (mi, mı, mu, mü) based on the last vowel
+            const lastVowel = currentPhoto.Name.split('').reverse().find(c => "aeıioöuü".includes(c));
+
+            let suffix = "mi"; // Default suffix
+            if ("ou".includes(lastVowel)) {
+                suffix = "mu";
+            } else if ("öü".includes(lastVowel)) {
+                suffix = "mü";
+            } else if ("aı".includes(lastVowel)) {
+                suffix = "mı";
+            }
+
+            descriptionElement.textContent = `Bu bir ${currentPhoto.Name} ${suffix}?`;
+        }
+
+        // Handle clicks on the image
+        photoElement.addEventListener('click', () => {
+            const currentPhoto = photos[currentIndex];
+            // Check if it's already the answer, to avoid re-updating
+            if (descriptionElement.textContent.includes("mı?") || descriptionElement.textContent.includes("mi?") || descriptionElement.textContent.includes("mu?") || descriptionElement.textContent.includes("mü?")) {
+                descriptionElement.textContent = `Evet, bu bir ${currentPhoto.Name}.`;
+            } else {
+                currentIndex++;
+                if (currentIndex < photos.length) {
+                    loadPhoto();
+                } else {
+                    descriptionElement.textContent = "Tüm fotoğraflar gösterildi.";
+                    photoElement.style.display = "none";
+                }
+            }
+        });
+
+        // Initialize the first photo
+        loadPhoto();
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0D385-5F62-4FF1-99FF-48C3EFEE2B96}|WebApplication11\\WebApplication11.csproj|c:\\users\\ozkan\\source\\repos\\webapplication11\\webapplication11\\controllers\\thisworttwocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0D385-5F62-4FF1-99FF-48C3EFEE2B96}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\controllers\\thisworttwocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0D385-5F62-4FF1-99FF-48C3EFEE2B96}|WebApplication11\\WebApplication11.csproj|c:\\users\\ozkan\\source\\repos\\webapplication11\\webapplication11\\views\\thisworttwo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFF0D385-5F62-4FF1-99FF-48C3EFEE2B96}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\thisworttwo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 294,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 92,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThisWortTwoController.cs",
+              "DocumentMoniker": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\Controllers\\ThisWortTwoController.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Controllers\\ThisWortTwoController.cs",
+              "ToolTip": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\Controllers\\ThisWortTwoController.cs",
+              "RelativeToolTip": "WebApplication11\\Controllers\\ThisWortTwoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:34:37.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\Views\\ThisWortTwo\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\ThisWortTwo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\Views\\ThisWortTwo\\Index.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\ThisWortTwo\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAkwFAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T13:25:23.327Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

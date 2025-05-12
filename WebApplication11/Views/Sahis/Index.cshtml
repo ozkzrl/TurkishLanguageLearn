@@ -1,0 +1,130 @@
+﻿@{
+    var zamirler = ViewBag.Zamirler as List<EvModel>;
+    var shuffledEvFormlari = ViewBag.ShuffledEvFormlari as List<EvModel>;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kelimeleri Doğru Yere Yerleştiriniz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #444;
+            font-size: 18px;
+            width: 120px;
+            text-align: right;
+        }
+
+        .dropzone {
+            width: 120px;
+            padding: 12px;
+            border-radius: 8px;
+            background-color: #e2e8f0;
+            text-align: center;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        .draggable {
+            color: #fff;
+            background-color: #f87171;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            font-size: 16px;
+            text-align: center;
+            width: 100px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+            .draggable:hover {
+                background-color: #fb923c;
+                transform: scale(1.05);
+            }
+
+        .matched {
+            background-color: #34d399 !important;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        Kelimeleri Doğru Yere Yerleştiriniz!
+    </h2>
+
+    <!-- Şahıs Zamirleri ve Dropzone Alanları -->
+    <div>
+        @foreach (var zamir in zamirler)
+        {
+            <div class="container">
+                <div class="label">@zamir.Zamir</div>
+                <div class="dropzone" data-ev="@zamir.EvFormu">Bırakın</div>
+            </div>
+        }
+    </div>
+
+    <!-- Rastgele Ev Formları (Sürüklenebilir) -->
+    <div style="display: flex; gap: 10px; margin-top: 20px;">
+        @foreach (var ev in shuffledEvFormlari)
+        {
+            <div class="draggable" draggable="true" data-ev="@ev.EvFormu">@ev.EvFormu</div>
+        }
+    </div>
+
+    <script>
+        const draggables = document.querySelectorAll('.draggable');
+        const dropzones = document.querySelectorAll('.dropzone');
+
+        draggables.forEach(draggable => {
+            draggable.addEventListener('dragstart', (e) => {
+                e.dataTransfer.setData('text/plain', e.target.getAttribute('data-ev'));
+            });
+        });
+
+        dropzones.forEach(dropzone => {
+            dropzone.addEventListener('dragover', (e) => e.preventDefault());
+
+            dropzone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                const draggedEv = e.dataTransfer.getData('text/plain');
+                const correctEv = e.target.getAttribute('data-ev');
+
+                if (draggedEv === correctEv) {
+                    e.target.textContent = draggedEv;
+                    e.target.classList.add('matched'); // Yeşil arka plan
+                    document.querySelector(`.draggable[data-ev="${draggedEv}"]`).remove(); // Sürüklenen öğeyi kaldır
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

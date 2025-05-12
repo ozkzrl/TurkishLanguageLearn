@@ -1,0 +1,133 @@
+﻿@model List<WebApplication11.Models.DialogModel>
+@{
+    var randomizedDragOptions = ViewBag.RandomizedDragOptions as List<string>;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Eşleştirme Oyunu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dialog-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .dropzone {
+            padding: 10px;
+            border: 2px dashed #333;
+            background-color: #f0f0f0;
+            min-width: 300px;
+            text-align: center;
+        }
+
+        .drag-item {
+            padding: 10px;
+            background-color: #d1e7dd;
+            border: 1px solid #333;
+            cursor: move;
+            text-align: center;
+            margin: 5px 0;
+            display: inline-block;
+        }
+
+        .correct {
+            background-color: #d4edda;
+        }
+
+        .drag-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dialog Eşleştirme Oyunu</h1>
+    <p>Aşağıdaki eksik cümleleri doğru yerlere sürükleyin ve bırakın.</p>
+
+    <div class="container">
+        @foreach (var dialog in Model)
+        {
+            <div class="dialog-container">
+                <p>@dialog.Sentence</p>
+                <div class="dropzone" id="@dialog.DropZoneIds.First()" data-correct="@dialog.MissingParts.First()"></div>
+            </div>
+        }
+    </div>
+
+    <div class="drag-container">
+        <h3>Eksik Cümle Parçaları</h3>
+        @foreach (var option in randomizedDragOptions)
+        {
+            <div class="drag-item" draggable="true">@option</div>
+        }
+    </div>
+
+    <p id="result"></p>
+
+    <script>
+        const dragItems = document.querySelectorAll('.drag-item');
+        const dropzones = document.querySelectorAll('.dropzone');
+
+        dragItems.forEach(item => {
+            item.addEventListener('dragstart', dragStart);
+        });
+
+        dropzones.forEach(zone => {
+            zone.addEventListener('dragover', dragOver);
+            zone.addEventListener('drop', dropItem);
+        });
+
+        function dragStart(event) {
+            event.dataTransfer.setData("text", event.target.innerText);
+        }
+
+        function dragOver(event) {
+            event.preventDefault();
+        }
+
+        function dropItem(event) {
+            event.preventDefault();
+            const draggedContent = event.dataTransfer.getData("text");
+            const dropZoneId = event.target.id;
+
+            fetch('/Dialog/CheckCorrectness', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ draggedContent, dropZoneId })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.isCorrect) {
+                        event.target.innerText = draggedContent;
+                        event.target.classList.add('correct');
+                        checkCompletion();
+                    } else {
+                        alert('Yanlış eşleştirme! Lütfen doğru yere bırakın.');
+                    }
+                });
+        }
+
+        function checkCompletion() {
+            const allCorrect = [...dropzones].every(zone => zone.classList.contains('correct'));
+            if (allCorrect) {
+                document.getElementById('result').innerText = 'Tebrikler, tüm cümleleri doğru eşleştirdiniz!';
+            }
+        }
+    </script>
+</body>
+</html>
+

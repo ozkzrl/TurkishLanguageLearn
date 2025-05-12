@@ -1,0 +1,14 @@
+﻿@model List<ImageModel>
+
+<h3>Resimler</h3>
+
+<div class="images">
+    @foreach (var image in Model)
+    {
+        <div class="image-item" style="text-align: center; margin-bottom: 20px;">
+            <img src="@image.ImagePath" alt="@image.ImageName" style="width:300px; height:300px;" />
+            <p>@image.ImageName</p> <!-- Resim adı -->
+        </div>
+    }
+</div>
+

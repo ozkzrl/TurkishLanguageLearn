@@ -1,0 +1,1262 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Text Color</title>
+    <style>
+        .green {
+            color: green;
+        }
+
+        .red {
+            color: red;
+        }
+        .txtInput
+        {
+            text-align:right;
+           
+        }
+
+        td {
+            padding-right: 25px
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            width:125px;
+            height:150px;
+        }
+
+    </style>
+</head>
+<body>
+
+   
+        <form>
+    <table>
+        <tr>
+
+                
+            <td>
+                <img src="images/names/ogretmen.png" alt="Öğretmen">
+                <input type="text" id="textInput1" name="textInput1" class="txtInput" size="1" value="Ben" disabled />
+                
+                <input type="text" id="textInput2" name="textInput2" class="txtInput" value="öğretmen" size="10" disabled/>
+                <input type="text" id="textInput3" name="textInput3" size="1"/>
+            </td>
+            
+                
+             <td>
+                    <img src="images/names/mimar.png" alt="mimar">
+                <input type="text" id="textInput37" name="textInput37" class="txtInput" size="1" value="Ben" disabled />
+                
+                <input type="text" id="textInput38" name="textInput38" class="txtInput" value="mimar" size="10" disabled/>
+                <input type="text" id="textInput39" name="textInput39" size="1"/>
+            </td> 
+            
+                
+             <td>
+                    <img src="images/names/asci.png" alt="aşcı">
+                <input type="text" id="textInput73" name="textInput73" class="txtInput" size="1" value="Ben" disabled />
+                <input type="text" id="textInput74" name="textInput74" class="txtInput" value="aşçı" size="10" disabled/>
+                <input type="text" id="textInput75" name="textInput75" size="1"/>
+            </td>
+            
+                
+             <td>
+                    <img src="images/names/oyuncu.png" alt="oyuncu" >
+                <input type="text" id="textInput107" name="textInput107" class="txtInput" size="1" value="Ben" disabled />
+                <input type="text" id="textInput108" name="textInput108" class="txtInput" value="oyuncu" size="10" disabled/>
+                <input type="text" id="textInput109" name="textInput109" size="1"/>
+            </td>
+            
+                
+             <td>
+                    <img src="images/names/sofor.png" alt="Şoför">
+                <input type="text" id="textInput143" name="textInput143" class="txtInput" size="1" value="Ben" disabled />
+                <input type="text" id="textInput144" name="textInput144" class="txtInput" value="şoför" size="10" disabled/>
+                <input type="text" id="textInput145" name="textInput145" size="1"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="textInput4" name="textInput4" class="txtInput" size="1" value="Sen" disabled />
+                <input type="text" id="textInput5" name="textInput5" class="txtInput" value="öğretmen" size="10" disabled/>
+                <input type="text" id="textInput6" name="textInput6" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput40" name="textInput40" class="txtInput" size="1" value="Sen" disabled />
+                <input type="text" id="textInput41" name="textInput41" class="txtInput" value="mimar" size="10" disabled/>
+                <input type="text" id="textInput42" name="textInput42" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput76" name="textInput76" class="txtInput" size="1" value="Sen" disabled />
+                <input type="text" id="textInput77" name="textInput77" class="txtInput" value="aşçı" size="10" disabled/>
+                <input type="text" id="textInput78" name="textInput78" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput110" name="textInput110" class="txtInput" size="1" value="Sen" disabled />
+                <input type="text" id="textInput111" name="textInput111" class="txtInput" value="oyuncu" size="10" disabled/>
+                <input type="text" id="textInput112" name="textInput112" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput146" name="textInput146" class="txtInput" size="1" value="Sen" disabled />
+                <input type="text" id="textInput147" name="textInput147" class="txtInput" value="şoför" size="10" disabled/>
+                <input type="text" id="textInput148" name="textInput148" size="1"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="textInput7" name="textInput7" class="txtInput" size="1" value="O" disabled />
+                <input type="text" id="textInput8" name="textInput8" class="txtInput" value="öğretmen" size="10" disabled/>
+                <input type="text" id="textInput9" name="textInput9" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput43" name="textInput43" class="txtInput" size="1" value="O" disabled />
+                <input type="text" id="textInput44" name="textInput44" class="txtInput" value="mimar" size="10" disabled/>
+                <input type="text" id="textInput45" name="textInput45" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput79" name="textInput79" class="txtInput" size="1" value="O" disabled />
+                <input type="text" id="textInput80" name="textInput80" class="txtInput" value="aşçı" size="10" disabled/>
+                <input type="text" id="textInput81" name="textInput81" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput113" name="textInput113" class="txtInput" size="1" value="O" disabled />
+                <input type="text" id="textInput114" name="textInput114" class="txtInput" value="oyuncu" size="10" disabled/>
+                <input type="text" id="textInput115" name="textInput115" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput149" name="textInput149" class="txtInput" size="1" value="O" disabled />
+                <input type="text" id="textInput150" name="textInput150" class="txtInput" value="şoför" size="10" disabled/>
+                <input type="text" id="textInput151" name="textInput151" size="1"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="textInput10" name="textInput10" class="txtInput" size="1" value="Biz" disabled />
+                <input type="text" id="textInput11" name="textInput11" class="txtInput" value="öğretmen" size="10" disabled/>
+                <input type="text" id="textInput12" name="textInput12" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput46" name="textInput46" class="txtInput" size="1" value="Biz" disabled />
+                <input type="text" id="textInput47" name="textInput47" class="txtInput" value="mimar" size="10" disabled/>
+                <input type="text" id="textInput48" name="textInput48" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput82" name="textInput82" class="txtInput" size="1" value="Biz" disabled />
+                <input type="text" id="textInput83" name="textInput83" class="txtInput" value="aşçı" size="10" disabled/>
+                <input type="text" id="textInput84" name="textInput84" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput116" name="textInput116" class="txtInput" size="1" value="Biz" disabled />
+                <input type="text" id="textInput117" name="textInput117" class="txtInput" value="oyuncu" size="10" disabled/>
+                <input type="text" id="textInput118" name="textInput118" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput152" name="textInput152" class="txtInput" size="1" value="Biz" disabled />
+                <input type="text" id="textInput153" name="textInput153" class="txtInput" value="şoför" size="10" disabled/>
+                <input type="text" id="textInput154" name="textInput154" size="1"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="textInput13" name="textInput13" class="txtInput" size="1" value="Siz" disabled />
+                <input type="text" id="textInput14" name="textInput14" class="txtInput" value="öğretmen" size="10" disabled/>
+                <input type="text" id="textInput15" name="textInput15" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput49" name="textInput49" class="txtInput" size="1" value="Siz" disabled />
+                <input type="text" id="textInput50" name="textInput50" class="txtInput" value="mimar" size="10" disabled/>
+                <input type="text" id="textInput51" name="textInput51" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput85" name="textInput85" class="txtInput" size="1" value="Siz" disabled />
+                <input type="text" id="textInput86" name="textInput86" class="txtInput" value="aşçı" size="10" disabled/>
+                <input type="text" id="textInput87" name="textInput87" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput119" name="textInput119" class="txtInput" size="1" value="Siz" disabled />
+                <input type="text" id="textInput120" name="textInput120" class="txtInput" value="oyuncu" size="10" disabled/>
+                <input type="text" id="textInput121" name="textInput121" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput155" name="textInput155" class="txtInput" size="1" value="Siz" disabled />
+                <input type="text" id="textInput156" name="textInput156" class="txtInput" value="şoför" size="10" disabled/>
+                <input type="text" id="textInput157" name="textInput157" size="1"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="textInput16" name="textInput16" class="txtInput" size="1" value="Onlar" disabled />
+                <input type="text" id="textInput17" name="textInput17" class="txtInput" value="öğretmen" size="10" disabled/>
+                <input type="text" id="textInput18" name="textInput18" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput52" name="textInput52" class="txtInput" size="1" value="Onlar" disabled />
+                <input type="text" id="textInput53" name="textInput53" class="txtInput" value="mimar" size="10" disabled/>
+                <input type="text" id="textInput54" name="textInput54" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput851" name="textInput851" class="txtInput" size="1" value="Onlar" disabled />
+                <input type="text" id="textInput861" name="textInput861" class="txtInput" value="aşçı" size="10" disabled/>
+                <input type="text" id="textInput871" name="textInput871" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput122" name="textInput122" class="txtInput" size="1" value="Onlar" disabled />
+                <input type="text" id="textInput123" name="textInput123" class="txtInput" value="oyuncu" size="10" disabled/>
+                <input type="text" id="textInput124" name="textInput124" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput158" name="textInput158" class="txtInput" size="1" value="Onlar" disabled />
+                <input type="text" id="textInput159" name="textInput159" class="txtInput" value="şoför" size="10" disabled/>
+                <input type="text" id="textInput160" name="textInput160" size="1"/>
+            </td>
+
+        </tr>
+        </table>
+        <br />
+        <br />
+    
+        <table>
+        <tr>
+            <td>
+                <img src="images/names/akilli.png" alt="akıllı">
+                <input type="text" id="textInput19" name="textInput19" class="txtInput" size="1" value="Ben" disabled />
+                <input type="text" id="textInput20" name="textInput20" class="txtInput" value="akıllı" size="10" disabled/>
+                <input type="text" id="textInput21" name="textInput21" size="1"/>
+            </td>
+             <td>
+                    <img src="images/names/uzun.png" alt="uzun">
+                <input type="text" id="textInput55" name="textInput55" class="txtInput" size="1" value="Ben" disabled />
+                <input type="text" id="textInput56" name="textInput56" class="txtInput" value="uzun" size="10" disabled/>
+                <input type="text" id="textInput57" name="textInput57" size="1"/>
+            </td>
+             <td>
+                    <img src="images/names/uzgun.png" alt="üzgün">
+                <input type="text" id="textInput88" name="textInput88" class="txtInput" size="1" value="Ben" disabled />
+                <input type="text" id="textInput89" name="textInput89" class="txtInput" value="üzgün" size="10" disabled/>
+                <input type="text" id="textInput90" name="textInput90" size="1"/>
+            </td>
+             <td>
+                    <img src="images/names/mutlu.png" alt="mutlu">
+                <input type="text" id="textInput125" name="textInput125" class="txtInput" size="1" value="Ben" disabled />
+                <input type="text" id="textInput126" name="textInput126" class="txtInput" value="mutlu" size="10" disabled/>
+                <input type="text" id="textInput127" name="textInput127" size="1"/>
+            </td>
+             <td>
+                    <img src="images/names/yavas.jpg" alt="yavaş">
+                <input type="text" id="textInput161" name="textInput161" class="txtInput" size="1" value="Ben" disabled />
+                <input type="text" id="textInput162" name="textInput162" class="txtInput" value="yavaş" size="10" disabled/>
+                <input type="text" id="textInput163" name="textInput163" size="1"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="textInput22" name="textInput22" class="txtInput" size="1" value="Sen" disabled />
+                <input type="text" id="textInput23" name="textInput23" class="txtInput" value="akıllı" size="10" disabled/>
+                <input type="text" id="textInput24" name="textInput24" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput58" name="textInput58" class="txtInput" size="1" value="Sen" disabled />
+                <input type="text" id="textInput59" name="textInput59" class="txtInput" value="uzun" size="10" disabled/>
+                <input type="text" id="textInput60" name="textInput60" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput91" name="textInput91" class="txtInput" size="1" value="Sen" disabled />
+                <input type="text" id="textInput92" name="textInput92" class="txtInput" value="üzgün" size="10" disabled/>
+                <input type="text" id="textInput93" name="textInput93" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput128" name="textInput128" class="txtInput" size="1" value="Sen" disabled />
+                <input type="text" id="textInput1129" name="textInput129" class="txtInput" value="mutlu" size="10" disabled/>
+                <input type="text" id="textInput130" name="textInput130" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput164" name="textInput164" class="txtInput" size="1" value="Sen" disabled />
+                <input type="text" id="textInput165" name="textInput165" class="txtInput" value="yavaş" size="10" disabled/>
+                <input type="text" id="textInput166" name="textInput166" size="1"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="textInput25" name="textInput25" class="txtInput" size="1" value="O" disabled />
+                <input type="text" id="textInput26" name="textInput26" class="txtInput" value="akıllı" size="10" disabled/>
+                <input type="text" id="textInput27" name="textInput27" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput61" name="textInput61" class="txtInput" size="1" value="O" disabled />
+                <input type="text" id="textInput62" name="textInput62" class="txtInput" value="uzun" size="10" disabled/>
+                <input type="text" id="textInput63" name="textInput63" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput94" name="textInput94" class="txtInput" size="1" value="O" disabled />
+                <input type="text" id="textInput95" name="textInput95" class="txtInput" value="üzgün" size="10" disabled/>
+                <input type="text" id="textInput96" name="textInput96" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput131" name="textInput131" class="txtInput" size="1" value="O" disabled />
+                <input type="text" id="textInput132" name="textInput132" class="txtInput" value="mutlu" size="10" disabled/>
+                <input type="text" id="textInput133" name="textInput133" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput167" name="textInput167" class="txtInput" size="1" value="O" disabled />
+                <input type="text" id="textInput168" name="textInput168" class="txtInput" value="yavaş" size="10" disabled/>
+                <input type="text" id="textInput169" name="textInput169" size="1"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="textInput28" name="textInput28" class="txtInput" size="1" value="Biz" disabled />
+                <input type="text" id="textInput29" name="textInput29" class="txtInput" value="akıllı" size="10" disabled/>
+                <input type="text" id="textInput30" name="textInput30" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput64" name="textInput64" class="txtInput" size="1" value="Biz" disabled />
+                <input type="text" id="textInput65" name="textInput65" class="txtInput" value="uzun" size="10" disabled/>
+                <input type="text" id="textInput66" name="textInput66" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput97" name="textInput97" class="txtInput" size="1" value="Biz" disabled />
+                <input type="text" id="textInput98" name="textInput98" class="txtInput" value="üzgün" size="10" disabled/>
+                <input type="text" id="textInput99" name="textInput99" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput134" name="textInput134" class="txtInput" size="1" value="Biz" disabled />
+                <input type="text" id="textInput135" name="textInput135" class="txtInput" value="mutlu" size="10" disabled/>
+                <input type="text" id="textInput136" name="textInput136" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput170" name="textInput170" class="txtInput" size="1" value="Biz" disabled />
+                <input type="text" id="textInput171" name="textInput171" class="txtInput" value="yavaş" size="10" disabled/>
+                <input type="text" id="textInput172" name="textInput172" size="1"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="textInput31" name="textInput31" class="txtInput" size="1" value="Siz" disabled />
+                <input type="text" id="textInput32" name="textInput32" class="txtInput" value="akıllı" size="10" disabled/>
+                <input type="text" id="textInput33" name="textInput33" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput67" name="textInput67" class="txtInput" size="1" value="Siz" disabled />
+                <input type="text" id="textInput68" name="textInput68" class="txtInput" value="uzun" size="10" disabled/>
+                <input type="text" id="textInput69" name="textInput69" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput101" name="textInput101" class="txtInput" size="1" value="Siz" disabled />
+                <input type="text" id="textInput102" name="textInput102" class="txtInput" value="üzgün" size="10" disabled/>
+                <input type="text" id="textInput103" name="textInput103" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput137" name="textInput137" class="txtInput" size="1" value="Siz" disabled />
+                <input type="text" id="textInput138" name="textInput138" class="txtInput" value="mutlu" size="10" disabled/>
+                <input type="text" id="textInput139" name="textInput139" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput173" name="textInput173" class="txtInput" size="1" value="Siz" disabled />
+                <input type="text" id="textInput174" name="textInput174" class="txtInput" value="yavaş" size="10" disabled/>
+                <input type="text" id="textInput175" name="textInput175" size="1"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="textInput34" name="textInput34" class="txtInput" size="1" value="Onlar" disabled />
+                <input type="text" id="textInput35" name="textInput35" class="txtInput" value="akıllı" size="10" disabled/>
+                <input type="text" id="textInput36" name="textInput36" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput70" name="textInput70" class="txtInput" size="1" value="Onlar" disabled />
+                <input type="text" id="textInput71" name="textInput71" class="txtInput" value="uzun" size="10" disabled/>
+                <input type="text" id="textInput72" name="textInput72" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput104" name="textInput104" class="txtInput" size="1" value="Onlar" disabled />
+                <input type="text" id="textInput105" name="textInput105" class="txtInput" value="üzgün" size="10" disabled/>
+                <input type="text" id="textInput106" name="textInput106" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput140" name="textInput140" class="txtInput" size="1" value="Onlar" disabled />
+                <input type="text" id="textInput141" name="textInput141" class="txtInput" value="mutlu" size="10" disabled/>
+                <input type="text" id="textInput142" name="textInput142" size="1"/>
+            </td>
+             <td>
+                <input type="text" id="textInput176" name="textInput176" class="txtInput" size="1" value="Onlar" disabled />
+                <input type="text" id="textInput177" name="textInput177" class="txtInput" value="yavaş" size="10" disabled/>
+                <input type="text" id="textInput178" name="textInput178" size="1"/>
+            </td>
+        </tr>
+    </table>
+        </form>
+
+    <script>
+        document.getElementById("textInput3").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput3"); 
+
+            if (inputValue === "im") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true; 
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+
+        document.getElementById("textInput6").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput6"); 
+
+            if (inputValue === "sin") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+
+        document.getElementById("textInput9").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput9"); 
+
+            if (inputValue === "-") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+         document.getElementById("textInput12").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput12"); 
+
+                if (inputValue === "iz") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+         });
+
+         document.getElementById("textInput15").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput15"); 
+
+                if (inputValue === "siniz") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+         });
+               
+        document.getElementById("textInput18").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput18"); 
+
+            if (inputValue === "ler") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+
+        document.getElementById("textInput39").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput39"); 
+
+            if (inputValue === "ım") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput42").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput42");
+
+            if (inputValue === "sın") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput45").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput45"); 
+
+            if (inputValue === "-") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput48").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput48"); 
+
+            if (inputValue === "ız") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput51").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput51"); 
+
+            if (inputValue === "sınız") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput54").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput54");
+
+            if (inputValue === "lar") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput75").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput75"); 
+
+            if (inputValue === "yım") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput78").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput78"); 
+
+            if (inputValue === "sın") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput81").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput81"); 
+
+            if (inputValue === "-") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput84").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput84"); 
+
+            if (inputValue === "yız") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput87").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput87");
+
+            if (inputValue === "sınız") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput871").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput871"); 
+
+            if (inputValue === "lar") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput109").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput109"); 
+
+            if (inputValue === "yum") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput112").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase();
+            const secondInput = document.getElementById("textInput112");
+
+            if (inputValue === "sun") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput115").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput115"); 
+
+            if (inputValue === "-") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput118").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput118"); 
+
+            if (inputValue === "yuz") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput121").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput121"); 
+
+            if (inputValue === "sunuz") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+            document.getElementById("textInput124").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput124"); 
+
+                if (inputValue === "lar") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+            document.getElementById("textInput145").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput145"); 
+
+                if (inputValue === "üm") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+            document.getElementById("textInput148").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput148"); 
+
+                if (inputValue === "sün") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+            document.getElementById("textInput151").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput151"); 
+
+                if (inputValue === "-") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+            document.getElementById("textInput154").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput154"); 
+
+                if (inputValue === "üz") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+            document.getElementById("textInput157").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput157"); 
+
+                if (inputValue === "sünüz") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+            document.getElementById("textInput160").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput160"); 
+
+                if (inputValue === "ler") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+
+            document.getElementById("textInput21").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput21"); 
+
+                if (inputValue === "yım") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+            document.getElementById("textInput24").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput24"); 
+
+                if (inputValue === "sın") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+            document.getElementById("textInput27").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+              const secondInput = document.getElementById("textInput27"); 
+
+                if (inputValue === "-") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+
+            document.getElementById("textInput30").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput30"); 
+
+                if (inputValue === "yız") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+            document.getElementById("textInput33").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput33"); 
+
+                if (inputValue === "sınız") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+            document.getElementById("textInput36").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput36"); 
+
+                if (inputValue === "lar") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+             document.getElementById("textInput57").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput57"); 
+
+                if (inputValue === "um") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+             document.getElementById("textInput60").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput60"); 
+
+                if (inputValue === "sun") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+             document.getElementById("textInput63").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput63"); 
+
+                if (inputValue === "-") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false;
+                }
+            });
+             document.getElementById("textInput66").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput66"); 
+
+                if (inputValue === "uz") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+             document.getElementById("textInput69").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput69"); 
+
+                if (inputValue === "sunuz") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+             document.getElementById("textInput72").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase();
+                const secondInput = document.getElementById("textInput72"); 
+
+                if (inputValue === "lar") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+            });
+
+        document.getElementById("textInput90").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput90"); 
+
+            if (inputValue === "üm") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+
+         document.getElementById("textInput93").addEventListener("input", function () {
+                const inputValue = this.value.toLowerCase(); 
+                const secondInput = document.getElementById("textInput93"); 
+
+                if (inputValue === "sün") {
+                    this.classList.remove("red");
+                    this.classList.add("green");
+                    secondInput.disabled = true;
+                } else {
+                    this.classList.remove("green");
+                    this.classList.add("red");
+                    secondInput.disabled = false; 
+                }
+         });
+
+        document.getElementById("textInput96").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput96"); 
+
+            if (inputValue === "-") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput99").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput99");
+
+            if (inputValue === "üz") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput103").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput103"); 
+
+            if (inputValue === "sünüz") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false;
+            }
+        });
+        document.getElementById("textInput106").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput106"); 
+
+            if (inputValue === "ler") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput127").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput127"); 
+
+            if (inputValue === "yum") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput130").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput130"); 
+
+            if (inputValue === "sun") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput133").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput133"); 
+
+            if (inputValue === "-") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput136").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput136"); 
+
+            if (inputValue === "uz") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput139").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput139"); 
+
+            if (inputValue === "sunuz") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput142").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase(); 
+            const secondInput = document.getElementById("textInput142"); 
+
+            if (inputValue === "lar") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false; 
+            }
+        });
+        document.getElementById("textInput163").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase();
+            const secondInput = document.getElementById("textInput163");
+
+            if (inputValue === "ım") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false;
+            }
+        });
+        document.getElementById("textInput166").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase();
+            const secondInput = document.getElementById("textInput166");
+
+            if (inputValue === "sın") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false;
+            }
+        });
+        document.getElementById("textInput169").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase();
+            const secondInput = document.getElementById("textInput169");
+
+            if (inputValue === "-") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false;
+            }
+        });
+        document.getElementById("textInput172").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase();
+            const secondInput = document.getElementById("textInput172");
+
+            if (inputValue === "ız") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false;
+            }
+        });
+        document.getElementById("textInput175").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase();
+            const secondInput = document.getElementById("textInput175");
+
+            if (inputValue === "sınız") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false;
+            }
+        });
+        document.getElementById("textInput178").addEventListener("input", function () {
+            const inputValue = this.value.toLowerCase();
+            const secondInput = document.getElementById("textInput178");
+
+            if (inputValue === "lar") {
+                this.classList.remove("red");
+                this.classList.add("green");
+                secondInput.disabled = true;
+            } else {
+                this.classList.remove("green");
+                this.classList.add("red");
+                secondInput.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>
+

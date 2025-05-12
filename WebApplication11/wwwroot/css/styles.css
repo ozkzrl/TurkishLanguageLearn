@@ -1,0 +1,7 @@
+.correct-frame {
+    border: 5px solid green;
+}
+
+.wrong-frame {
+    border: 5px solid red;
+}

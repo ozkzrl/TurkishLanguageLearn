@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eş Anlamlı Eşleştirme Oyunu</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .game-board {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .card {
+      width: 45%;
+      margin: 10px;
+      padding: 15px;
+      background-color: white;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .card.selected {
+      background-color: #e0f7fa;
+    }
+    .card.matched {
+      background-color: #c8e6c9;
+      color: green;
+      cursor: default;
+    }
+  </style>
+</head>
+<body>
+  <h1>Eş Anlamlı Kelime Eşleştirme Oyunu</h1>
+ <p>Kelimenin kendisine ve eşanlamlısına tıklayarak kelimelerin yeşil renge dönmesini sağlayınız.</p>
+  <div class="game-board" id="gameBoard"></div>
+    
+  <script>
+    const pairs = [
+      ["büyük", "küçük"],
+      ["yaşlı", "ihtiyar"],
+      ["siyah", "kara"],
+      ["misafir", "konuk"],
+      ["cevap", "yanıt"],
+      ["rüya", "düş"],
+      ["yıl", "sene"],
+    ];
+
+    const flattened = pairs.flat();
+    const shuffled = flattened.sort(() => Math.random() - 0.5);
+    const gameBoard = document.getElementById("gameBoard");
+
+    let firstCard = null;
+    let secondCard = null;
+
+    function createCard(word) {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.textContent = word;
+      card.dataset.word = word;
+      card.addEventListener("click", () => selectCard(card));
+      return card;
+    }
+
+    function selectCard(card) {
+      if (card.classList.contains("matched") || card === firstCard) return;
+
+      card.classList.add("selected");
+
+      if (!firstCard) {
+        firstCard = card;
+      } else {
+        secondCard = card;
+        checkMatch();
+      }
+    }
+
+    function checkMatch() {
+      const matchFound = pairs.some(pair =>
+        pair.includes(firstCard.dataset.word) && pair.includes(secondCard.dataset.word)
+      );
+
+      if (matchFound) {
+        firstCard.classList.add("matched");
+        secondCard.classList.add("matched");
+      }
+
+      setTimeout(() => {
+        firstCard.classList.remove("selected");
+        secondCard.classList.remove("selected");
+        firstCard = null;
+        secondCard = null;
+      }, 1000);
+    }
+
+    shuffled.forEach(word => {
+      gameBoard.appendChild(createCard(word));
+    });
+  </script>
+</body>
+</html>

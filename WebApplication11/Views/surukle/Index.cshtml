@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sürükle ve Bırak</title>
+  <style>
+    .label {
+      display: inline-block;
+      padding: 10px;
+      margin: 5px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      cursor: grab;
+    }
+
+    .image {
+      width: 200px;
+      height: 150px;
+      margin: 10px;
+      border: 1px solid #000;
+      display: inline-block;
+    }
+
+    .dropzone {
+      border: 2px dashed #ccc;
+      padding: 20px;
+      min-height: 200px;
+      width:500px;
+    }
+
+    .correct {
+      background-color: #c8e6c9;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Fiiller</h3>
+  <div id="labels">
+    <div class="label" draggable="true" id="basketbol oynamak">basketbol oynamak</div>
+    <div class="label" draggable="true" id="uyumak">uyumak</div>
+    <div class="label" draggable="true" id="koşmak">koşmak</div>
+    <div class="label" draggable="true" id="yazmak">yazmak</div>
+    <div class="label" draggable="true" id="yüzmek">yüzmek</div>
+    <div class="label" draggable="true" id="okumak">okumak</div>
+    <div class="label" draggable="true" id="şarkı soylemek">şarkı söylemek</div>
+    <div class="label" draggable="true" id="gitar çalmak">gitar çalmak</div>
+    <div class="label" draggable="true" id="televizyon seyretmek">televizyon seyretmek</div>
+  </div>
+       
+
+  <h3>Resimler</h3>
+
+    <table>
+        <tr>
+            <td><div class="dropzone" id="image1">
+    <img src="images/verbs/basketboloynamak.png" alt="basketbol oynamak" class="image">
+  </div></td>
+            <td><div class="dropzone" id="image1">
+    <img src="images/verbs/okumak.png" alt="okumak" class="image">
+  </div></td>
+            <td><div class="dropzone" id="image1">
+    <img src="images/verbs/kosmak.png" alt="koşmak" class="image">
+  </div></td>
+        </tr>
+        <tr>
+        <td><div class="dropzone" id="image1">
+    <img src="images/verbs/yuzmek.png" alt="yüzmek" class="image">
+  </div></td>
+        <td><div class="dropzone" id="image1">
+    <img src="images/verbs/uyumak.png" alt="uyumak" class="image">
+  </div></td>
+        <td><div class="dropzone" id="image1">
+    <img src="images/verbs/yazmak.png" alt="yazmak" class="image">
+  </div></td>
+        </tr>
+        <tr>
+        <td><div class="dropzone" id="image1">
+    <img src="images/verbs/sarkisoylemek.png" alt="şarkı soylemek" class="image">
+  </div></td>
+        <td><div class="dropzone" id="image1">
+    <img src="images/verbs/gitarcalmak.png" alt="gitar çalmak" class="image">
+  </div></td>
+        <td><div class="dropzone" id="image1">
+    <img src="images/verbs/televizyonseyretmek.png" alt="televizyon seyretmek" class="image">
+  </div></td>
+        </tr>
+
+    </table>
+  <script src="script.js"></script>
+  <script>
+        // Sürüklenen elemanı yakala
+        let draggedItem = null;
+
+        // Sürüklemeyi başlat
+        document.querySelectorAll('.label').forEach(item => {
+            item.addEventListener('dragstart', function (e) {
+                draggedItem = item;
+                setTimeout(function () {
+                    item.style.display = 'none';
+                }, 0);
+            });
+
+            item.addEventListener('dragend', function () {
+                setTimeout(function () {
+                    draggedItem.style.display = 'block';
+                    draggedItem = null;
+                }, 0);
+            });
+        });
+
+        // Sürükleme alanı üzerine elemanı bırakma
+        document.querySelectorAll('.dropzone').forEach(zone => {
+            zone.addEventListener('dragover', function (e) {
+                e.preventDefault();
+            });
+
+            zone.addEventListener('drop', function (e) {
+                e.preventDefault();
+                if (this.querySelector('img').alt.toLowerCase() === draggedItem.id) {
+                    this.appendChild(draggedItem);
+                    this.classList.add('correct'); // Doğru yerleştirildiğinde görsel ipucu
+                }
+            });
+        });
+  </script>
+</body>
+</html>
+

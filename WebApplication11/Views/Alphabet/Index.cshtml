@@ -1,0 +1,28 @@
+﻿@model List<string>
+
+<h2>Türk Alfabesi</h2>
+
+<!-- Alfabe düğmelerini göster -->
+<div id="alphabet-list">
+    @foreach (var letter in Model)
+    {
+        <button class="alphabet-btn" onclick="showImages('@letter')">@letter</button>
+    }
+</div>
+
+<!-- Resimlerin gösterileceği bölüm -->
+<div id="images-container"></div>
+
+@section Scripts {
+   <script>
+        function showImages(letter) {
+            $.get("/Alphabet/GetImages?letter=" + letter, function (data) {
+                $('#images-container').html(data);
+                $('.image-item').each(function (index) {
+                    $(this).addClass('loaded');  // Animasyonlu yükleme
+                });
+            });
+        }
+   </script> 
+}
+

@@ -1,0 +1,717 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication11.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplication11.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\Seasons\\Kış.png",
+      "PackagePath": "staticwebassets\\images\\Seasons\\Kış.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\Seasons\\Sonbahar.jpg",
+      "PackagePath": "staticwebassets\\images\\Seasons\\Sonbahar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\Seasons\\Yaz.jpg",
+      "PackagePath": "staticwebassets\\images\\Seasons\\Yaz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\Seasons\\İlkbahar.jpg",
+      "PackagePath": "staticwebassets\\images\\Seasons\\İlkbahar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\at.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\at.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\deve.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\deve.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\horoz.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\horoz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\inek.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\inek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\kartal.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\kartal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\kedi.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\kedi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\koyun.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\koyun.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\koç.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\koç.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\köpek.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\köpek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\tavuk.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\tavuk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\animals\\öküz.jpg",
+      "PackagePath": "staticwebassets\\images\\animals\\öküz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\Jimnastikçi.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\Jimnastikçi.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\araba.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\araba.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\at.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\at.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ağ.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ağ.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ağaç.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ağaç.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ağlamak.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ağlamak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\bal.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\bal.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\balık.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\balık.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\beş.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\beş.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\bilgisayar.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\bilgisayar.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\cadde.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\cadde.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\cam.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\cam.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\casus.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\casus.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\daire.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\daire.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\defter.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\defter.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\domuz.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\domuz.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\dünya.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\dünya.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ekmek.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ekmek.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ev.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ev.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\eğlence.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\eğlence.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\fabrika.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\fabrika.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\fakir.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\fakir.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\fare.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\fare.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\gazete.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\gazete.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\gemi.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\gemi.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\genç.jpg",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\genç.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\halı.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\halı.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\hapishane.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\hapishane.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\horoz.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\horoz.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ihtiyar.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ihtiyar.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\iki.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\iki.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\içmek.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\içmek.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\japonya.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\japonya.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\jet.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\jet.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\kadın.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\kadın.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\kale.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\kale.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\kapı.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\kapı.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\lale.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\lale.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\limon.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\limon.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\makas.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\makas.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\masa.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\masa.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\mavi.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\mavi.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\nar.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\nar.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ocak.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ocak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ok.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ok.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\okumak.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\okumak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\pahalı.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\pahalı.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\palto.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\palto.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\pantolon.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\pantolon.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\parmak.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\parmak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\radio.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\radio.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\reçel.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\reçel.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\reçete.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\reçete.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\sarı.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\sarı.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\sayı.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\sayı.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\saç.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\saç.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\taksi.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\taksi.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\uydu.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\uydu.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\uyumak.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\uyumak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\uçak.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\uçak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\vaha.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\vaha.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\vapur.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\vapur.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\yaz.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\yaz.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\yirmi.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\yirmi.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\zehir.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\zehir.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\zengin.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\zengin.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\zincir.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\zincir.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\çay.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\çay.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\çiçek.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\çiçek.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\çocuk.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\çocuk.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ördek.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ördek.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ülke.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ülke.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ütü.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ütü.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\üye.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\üye.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ırmak.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ırmak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\ışık.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\ışık.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\şarkısöylemek.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\şarkısöylemek.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\şeker.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\şeker.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\harfresimleri\\şemsiye.png",
+      "PackagePath": "staticwebassets\\images\\harfresimleri\\şemsiye.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\names\\akilli.png",
+      "PackagePath": "staticwebassets\\images\\names\\akilli.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\names\\asci.png",
+      "PackagePath": "staticwebassets\\images\\names\\asci.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\names\\mimar.png",
+      "PackagePath": "staticwebassets\\images\\names\\mimar.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\names\\mutlu.png",
+      "PackagePath": "staticwebassets\\images\\names\\mutlu.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\names\\ogretmen.png",
+      "PackagePath": "staticwebassets\\images\\names\\ogretmen.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\names\\oyuncu.png",
+      "PackagePath": "staticwebassets\\images\\names\\oyuncu.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\names\\sofor.png",
+      "PackagePath": "staticwebassets\\images\\names\\sofor.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\names\\uzgun.png",
+      "PackagePath": "staticwebassets\\images\\names\\uzgun.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\names\\uzun.png",
+      "PackagePath": "staticwebassets\\images\\names\\uzun.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\names\\yavas.jpg",
+      "PackagePath": "staticwebassets\\images\\names\\yavas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\verbs\\basketboloynamak.png",
+      "PackagePath": "staticwebassets\\images\\verbs\\basketboloynamak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\verbs\\gitarcalmak.png",
+      "PackagePath": "staticwebassets\\images\\verbs\\gitarcalmak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\verbs\\kosmak.png",
+      "PackagePath": "staticwebassets\\images\\verbs\\kosmak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\verbs\\okumak.png",
+      "PackagePath": "staticwebassets\\images\\verbs\\okumak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\verbs\\sarkisoylemek.png",
+      "PackagePath": "staticwebassets\\images\\verbs\\sarkisoylemek.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\verbs\\televizyonseyretmek.png",
+      "PackagePath": "staticwebassets\\images\\verbs\\televizyonseyretmek.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\verbs\\uyumak.png",
+      "PackagePath": "staticwebassets\\images\\verbs\\uyumak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\verbs\\yazmak.png",
+      "PackagePath": "staticwebassets\\images\\verbs\\yazmak.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\images\\verbs\\yuzmek.png",
+      "PackagePath": "staticwebassets\\images\\verbs\\yuzmek.png"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ozkan\\source\\repos\\WebApplication11\\WebApplication11\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication11.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApplication11.props",
+      "PackagePath": "build\\WebApplication11.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication11.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication11.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApplication11.props",
+      "PackagePath": "buildTransitive\\WebApplication11.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

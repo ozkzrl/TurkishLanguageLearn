@@ -1,0 +1,172 @@
+﻿@{
+    ViewBag.Title = "Türkçe Ünlü Uyumu Oyunu";
+}
+
+<style>
+    #success-message {
+        color: green;
+        font-weight: bold;
+        display: none; /* Başlangıçta gizli */
+        margin-top: 20px;
+    }
+
+    #error-message {
+        color: red;
+        font-weight: bold;
+    }
+</style>
+
+<h1>Türkçe Ünlü Uyumu Oyunu</h1>
+
+<form>
+    @for (int i = 0; i < 20; i++)
+    {
+        if (i % 2 == 0)
+        {
+            // Tek sayılı inputlara rastgele sessiz harfler atanıyor
+            <input type="text" value="@ViewBag.RandomConsonants[i / 2]"
+                   readonly="readonly" maxlength="1" style="width: 20px; text-align: center;" />
+        }
+        else
+        {
+            // Çift sayılı inputlar sesli harfler için boş bırakılıyor
+            <input type="text" id="vowel-@i" maxlength="1" style="width: 20px; text-align: center;"
+                   oninput="checkVowelHarmony(@i)" />
+        }
+    }
+    <div id="error-message"></div>
+    <div id="success-message">Tebrikler! Ünlü uyumu sağlandı.</div>
+</form>
+
+<script>
+    const kalinSesliler = ['a', 'ı', 'o', 'u'];
+    const inceSesliler = ['e', 'i', 'ö', 'ü'];
+    const duzSesliler = ['a', 'e', 'ı', 'i'];
+    const yuvarlakSesliler = ['o', 'ö', 'u', 'ü'];
+
+    // Büyük Ünlü Uyumu Kontrolü
+    function checkMajorVowelHarmony(vowels) {
+        let hasKalin = vowels.some(v => kalinSesliler.includes(v));
+        let hasInce = vowels.some(v => inceSesliler.includes(v));
+
+        return !(hasKalin && hasInce); // Kalın ve ince ünlüler karışık olmamalı
+    }
+
+    // Küçük Ünlü Uyumu Kontrolü
+    function checkMinorVowelHarmony(vowels) {
+        for (let i = 0; i < vowels.length - 1; i++) {
+            let currentVowel = vowels[i];
+            let nextVowel = vowels[i + 1];
+
+            // Düz ünlüden sonra düz ünlü gelmeli
+            if (duzSesliler.includes(currentVowel)) {
+                if (currentVowel === 'a' && !(nextVowel === 'a' || nextVowel === 'ı') || // 'a' dan sonra 'a' veya 'ı'
+                    currentVowel === 'e' && !(nextVowel === 'e' || nextVowel === 'i') || // 'e' den sonra 'e' veya 'i'
+                    currentVowel === 'ı' && !(nextVowel === 'a' || nextVowel === 'ı') || // 'ı' dan sonra 'a' veya 'ı'
+                    currentVowel === 'i' && !(nextVowel === 'i' || nextVowel === 'e')) { // 'i' den sonra 'i' veya 'e'
+                    return false; // Uyum sağlanmıyorsa hata
+                }
+            }
+            // Yuvarlak ünlüden sonra yuvarlak dar veya düz geniş ünlü gelmeli
+            else if (yuvarlakSesliler.includes(currentVowel)) {
+                if (currentVowel === 'o' && !(nextVowel === 'u' || nextVowel === 'a') || // 'o' dan sonra sadece 'u' veya 'a' gelmeli
+                    currentVowel === 'ö' && !(nextVowel === 'ü' || nextVowel === 'e') || // 'ö' den sonra 'ü' veya 'e' gelmeli
+                    currentVowel === 'u' && !(nextVowel === 'u' || nextVowel === 'a') || // 'u' dan sonra 'u' veya 'a' gelmeli
+                    currentVowel === 'ü' && !(nextVowel === 'ü' || nextVowel === 'e')) { // 'ü' den sonra 'ü' veya 'e' gelmeli
+                    return false; // Uyum sağlanmıyorsa hata
+                }
+            }
+
+            // 'o' ve 'ö' seslilerinden sonra kendileri gelmemeli
+            if ((currentVowel === 'o' && nextVowel === 'o') || (currentVowel === 'ö' && nextVowel === 'ö')) {
+                return false; // 'o' veya 'ö' kendisinden sonra gelmemeli
+            }
+        }
+        return true; // Uyum sağlanıyorsa
+    }
+
+
+    // Sesli Harfleri Almak
+    function getVowels() {
+        let vowels = [];
+        for (let i = 1; i < 20; i += 2) {
+            let input = document.getElementById('vowel-' + i);
+            let value = input.value.toLowerCase();
+            if (value && (kalinSesliler.includes(value) || inceSesliler.includes(value))) {
+                vowels.push(value);
+            }
+        }
+        return vowels;
+    }
+
+    // Anlık Kontrol Yapma Fonksiyonu
+    function checkVowelHarmony(index) {
+        let vowels = getVowels();
+
+        // Tüm inputları başlangıçta varsayılan renge döndürme
+        resetInputColors();
+
+        // Başarı mesajını gizle
+        document.getElementById("success-message").style.display = "none";
+        document.getElementById("error-message").innerText = ""; // Önceki hata mesajını temizle
+
+        if (vowels.length < 2) {
+            return; // Yeterli sesli harf yoksa kontrol yapma
+        }
+
+        // Sırasıyla tüm seslileri kontrol et ve renklendir
+        let isMajorHarmonyValid = true;
+        let isMinorHarmonyValid = true;
+        let allVowelsValid = true;
+
+        for (let i = 0; i < vowels.length; i++) {
+            // İlk sesli harften başlayarak sırayla kontrol et
+            if (i == 0) {
+                continue; // İlk harf kıyaslanmaz, devam et
+            }
+
+            let currentVowel = vowels[i];
+            let previousVowel = vowels[i - 1];
+
+            if (!checkMajorVowelHarmony([previousVowel, currentVowel])) {
+                isMajorHarmonyValid = false;
+                markInputAsInvalid(i * 2 + 1); // Hatalı sesli harfi kırmızı yap
+                allVowelsValid = false;
+            } else if (!checkMinorVowelHarmony([previousVowel, currentVowel])) {
+                isMinorHarmonyValid = false;
+                markInputAsInvalid(i * 2 + 1); // Hatalı sesli harfi kırmızı yap
+                allVowelsValid = false;
+            } else {
+                markInputAsValid(i * 2 + 1); // Uygun sesli harfi yeşil yap
+            }
+        }
+
+        if (!isMajorHarmonyValid) {
+            document.getElementById("error-message").innerText = "Büyük ünlü uyumu hatası!";
+        } else if (!isMinorHarmonyValid) {
+            document.getElementById("error-message").innerText = "Küçük ünlü uyumu hatası!";
+        }
+
+        // Eğer tüm sesliler uyumlu ise başarı mesajını göster
+        if (allVowelsValid) {
+            document.getElementById("success-message").style.display = "block";
+        }
+    }
+
+    // Input renklerini sıfırla
+    function resetInputColors() {
+        for (let i = 1; i < 20; i += 2) {
+            document.getElementById('vowel-' + i).style.backgroundColor = "";
+        }
+    }
+
+    // Hatalı input'u kırmızı yap
+    function markInputAsInvalid(index) {
+        document.getElementById('vowel-' + index).style.backgroundColor = "red";
+    }
+
+    // Uygun input'u yeşil yap
+    function markInputAsValid(index) {
+        document.getElementById('vowel-' + index).style.backgroundColor = "lightgreen";
+    }
+</script>

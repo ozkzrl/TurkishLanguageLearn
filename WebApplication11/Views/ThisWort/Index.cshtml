@@ -1,0 +1,78 @@
+﻿@model List<dynamic>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotoğraf Gösterici</title>
+    <style>
+        /* Görsel stil */
+        #photo {
+            margin: 20px auto;
+            display: block;
+            border: 4px solid #333; /* Daha belirgin kenarlık */
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Hafif gölge efekti */
+        }
+
+        /* Açıklama stil */
+        #description {
+            text-align: center;
+            font-size: 24px; /* Daha büyük yazı */
+            margin-top: 15px;
+            font-weight: bold; /* Kalın yazı */
+            color: #333; /* Koyu renk yazı */
+            font-family: 'Arial', sans-serif; /* Daha okunabilir yazı tipi */
+            background-color: #f9f9f9; /* Açık renk arka plan */
+            padding: 10px; /* Yazının etrafında boşluk */
+            border: 2px solid #ccc; /* Kenarlık ekleme */
+            border-radius: 5px; /* Köşeleri yuvarla */
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Hafif gölge efekti */
+        }
+
+        /* Sayfa düzeni */
+        body {
+            background-color: #f2f2f2; /* Sayfa arka planı */
+            font-family: 'Arial', sans-serif; /* Sayfa genel yazı tipi */
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img id="photo" src="@Model.First().Src" alt="Bu ne?" style="width: 300px; cursor: pointer;" />
+        <div id="description">Bu ne?</div>
+    </div>
+
+    <script>
+        const photos = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model));
+
+        let currentIndex = 0;
+        const photoElement = document.getElementById('photo');
+        const descriptionElement = document.getElementById('description');
+
+        photoElement.addEventListener('click', () => {
+            if (descriptionElement.textContent === "Bu ne?") {
+                descriptionElement.textContent = `Bu bir ${photos[currentIndex].Name}.`;
+            } else {
+                currentIndex++;
+                if (currentIndex < photos.length) {
+                    photoElement.src = photos[currentIndex].Src;
+                    descriptionElement.textContent = "Bu ne?";
+                } else {
+                    descriptionElement.textContent = "Tüm fotoğraflar gösterildi.";
+                    photoElement.style.display = "none";
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+

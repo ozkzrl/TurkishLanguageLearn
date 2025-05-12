@@ -1,0 +1,162 @@
+﻿@model MonthViewModel
+
+<<div class="container">
+    <h2>Ayları Sıralayın</h2>
+    <ul id="month-list" class="month-list">
+        @foreach (var month in Model.Months)
+        {
+            <li class="month-item" draggable="true" ondragstart="drag(event)" ondragover="allowDrop(event)" ondrop="drop(event)" id="@month">
+                @month
+            </li>
+        }
+    </ul>
+    <button onclick="checkOrder()">Sıralamayı Kontrol Et</button>
+    <div id="result-message"></div>
+</div>
+
+
+<script>
+    let draggedItem = null;
+
+    // Sürükleme başlatıldığında çağrılan fonksiyon
+    function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+        draggedItem = ev.target; // Sürüklenen öğeyi kaydet
+    }
+
+    // Sürüklemenin hedef üzerinde olmasına izin ver
+    function allowDrop(ev) {
+        ev.preventDefault(); // Varsayılan engellenir
+    }
+
+    // Öğeyi bıraktığınızda çağrılan fonksiyon
+    function drop(ev) {
+        ev.preventDefault();
+        var dropTarget = ev.target;
+
+        // Sadece 'month-item' sınıfı olan hedeflere bırakılmasına izin ver
+        if (dropTarget.classList.contains('month-item')) {
+            var list = document.getElementById('month-list');
+
+            // Eğer fare imlecinin yeri üst tarafsa sürüklenen öğeyi hedefin üstüne ekle
+            var bounding = dropTarget.getBoundingClientRect();
+            var offset = bounding.y + (bounding.height / 2);
+
+            if (ev.clientY - offset < 0) {
+                list.insertBefore(draggedItem, dropTarget); // Üstüne ekler
+            } else {
+                list.insertBefore(draggedItem, dropTarget.nextSibling); // Altına ekler
+            }
+        }
+    }
+
+    // Sıralamayı kontrol etme
+    function checkOrder() {
+        var listItems = document.querySelectorAll('#month-list li');
+        var sortedMonths = Array.from(listItems).map(li => li.id);
+
+        // AJAX isteği ile sıralamanın doğru olup olmadığını kontrol et
+        fetch('/Month/CheckOrder', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(sortedMonths)
+        })
+            .then(response => response.json())
+            .then(data => {
+                var resultMessage = document.getElementById('result-message');
+                if (data.success) {
+                    resultMessage.innerText = "Tebrikler! Doğru sıraladınız.";
+                    resultMessage.className = "success-message";
+                    resultMessage.style.color = "green";
+                } else {
+                    resultMessage.innerText = "Yanlış sıralama! Tekrar deneyin.";
+                    resultMessage.className = "error-message";
+                    resultMessage.style.color = "red";
+                }
+            });
+    }
+</script>
+<style>
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f8ff; /* Yumuşak bir arka plan rengi */
+        color: #333; /* Metin rengini gri yap */
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff; /* Arka planı beyaz yap */
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
+        text-align: center;
+    }
+
+    h2 {
+        color: #4a90e2; /* Başlık rengi */
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .month-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Aylar arasında boşluk */
+    }
+
+    .month-item {
+        padding: 15px;
+        background-color: #e0f7fa; /* Hafif mavi ton */
+        border-radius: 10px;
+        border: 2px solid #4a90e2; /* Mavi bir sınır */
+        font-size: 18px;
+        font-weight: 600;
+        cursor: move;
+        transition: background-color 0.3s, transform 0.2s;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15); /* Ay kartlarına gölge ekle */
+    }
+
+        .month-item:hover {
+            background-color: #b2ebf2; /* Üzerine gelindiğinde daha açık mavi */
+            transform: translateY(-5px); /* Hover sırasında hafif bir yükselme */
+        }
+
+    button {
+        background-color: #4a90e2;
+        color: white;
+        font-size: 16px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+    }
+
+        button:hover {
+            background-color: #357ab7; /* Buton hover rengi */
+        }
+
+    #result-message {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .success-message {
+        color: green;
+    }
+
+    .error-message {
+        color: red;
+    }
+</style>
+

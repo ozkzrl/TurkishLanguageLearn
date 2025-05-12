@@ -1,0 +1,105 @@
+﻿@model List<SeasonViewModel>
+
+@{
+    var seasonsList = new List<string> { "Kış", "İlkbahar", "Yaz", "Sonbahar" };
+}
+
+<div class="container">
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <div class="season-block">
+            <img src="@Model[i].ImageUrl" alt="Season Image" width="200" height="200" />
+            <select id="dropdown-@i" onchange="checkSeason(@i, '@Model[i].CorrectSeason')" class="season-dropdown">
+                <option value="">Bir mevsim seç.</option>
+                @foreach (var season in seasonsList)
+                {
+                    <option value="@season">@season</option>
+                }
+            </select>
+            <span id="message-@i" class="message"></span>
+        </div>
+    }
+</div>
+
+<script>
+    function checkSeason(index, correctSeason) {
+        var dropdown = document.getElementById('dropdown-' + index);
+        var selectedSeason = dropdown.value;
+        var messageSpan = document.getElementById('message-' + index);
+
+        if (selectedSeason === correctSeason) {
+            messageSpan.innerText = "Doğru!";
+            messageSpan.style.color = "green";
+            dropdown.style.backgroundColor = "green";
+            dropdown.style.color = "white"; // Seçilen değerin beyaz renkte olması
+        } else {
+            messageSpan.innerText = "Yanlış!";
+            messageSpan.style.color = "red";
+            dropdown.style.backgroundColor = "red";
+            dropdown.style.color = "white"; // Seçilen değerin beyaz renkte olması
+        }
+
+        dropdown.disabled = true;
+    }
+</script>
+
+<style>
+ 
+
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.season-block {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 280px; /* Daha büyük kartlar */
+}
+
+.season-block:hover {
+    transform: translateY(-8px);
+}
+
+.season-block img {
+    width: 240px;
+    height: 240px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.season-block img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.season-dropdown {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 6px;
+    width: 90%;
+    color: black;
+}
+
+.message {
+    margin-top: 10px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+</style>
+
+

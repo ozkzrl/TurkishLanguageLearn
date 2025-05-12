@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sürükle ve Bırak Oyunu</title>
+    
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        .game-area {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .labels {
+            width: 30%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .images {
+            width: 65%;
+        }
+
+        .label {
+            display: inline-block;
+            padding: 10px;
+            margin: 5px;
+            background-color: #e0f7fa;
+            border: 1px solid #00796b;
+            cursor: grab;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+            .label:hover {
+                background-color: #b2ebf2;
+            }
+
+        .image-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+
+        .dropzone {
+            border: 2px dashed #ccc;
+            padding: 20px;
+            min-height: 150px;
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s;
+            position: relative;
+        }
+
+            .dropzone.correct {
+                background-color: #c8e6c9;
+            }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        #timer {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sürükle ve Bırak Oyunu</h1>
+
+        <div class="game-area">
+            <div class="labels">
+                <h3>Kelimeler</h3>
+                <div id="labels">
+                    <div class="label" draggable="true" id="ekmek">ekmek</div>
+                    <div class="label" draggable="true" id="balık">balık</div>
+                    <div class="label" draggable="true" id="mavi">mavi</div>
+                    <div class="label" draggable="true" id="bilgisayar">bilgisayar</div>
+                    <div class="label" draggable="true" id="at">at</div>
+                    <div class="label" draggable="true" id="çocuk">çocuk</div>
+                    <div class="label" draggable="true" id="gazete">gazete</div>
+                    <div class="label" draggable="true" id="genç">genç</div>
+                    <div class="label" draggable="true" id="çay">çay</div>
+                    <div class="label" draggable="true" id="gemi">gemi</div>
+                    <div class="label" draggable="true" id="hapishane">hapishane</div>
+                    <div class="label" draggable="true" id="içmek">içmek</div>
+                    <div class="label" draggable="true" id="dünya">dünya</div>
+                </div>
+            </div>
+
+            <div class="images">
+                <h3>Resimler</h3>
+                <div class="image-row">
+                    <div class="dropzone" id="image1">
+                        <img src="images/harfresimleri/ekmek.png" alt="ekmek" class="image">
+                    </div>
+                    <div class="dropzone" id="image2">
+                        <img src="images/harfresimleri/balık.png" alt="balık" class="image">
+                    </div>
+                    <div class="dropzone" id="image3">
+                        <img src="images/harfresimleri/mavi.png" alt="mavi" class="image">
+                    </div>
+                </div>
+                <div class="image-row">
+                    <div class="dropzone" id="image4">
+                        <img src="images/harfresimleri/bilgisayar.png" alt="bilgisayar" class="image">
+                    </div>
+                    <div class="dropzone" id="image5">
+                        <img src="images/harfresimleri/at.png" alt="at" class="image">
+                    </div>
+                    <div class="dropzone" id="image6">
+                        <img src="images/harfresimleri/çocuk.png" alt="çocuk" class="image">
+                    </div>
+                </div>
+                <div class="image-row">
+                    <div class="dropzone" id="image7">
+                        <img src="images/harfresimleri/gazete.png" alt="gazete" class="image">
+                    </div>
+                    <div class="dropzone" id="image8">
+                        <img src="images/harfresimleri/genç.png" alt="genç" class="image">
+                    </div>
+                    <div class="dropzone" id="image9">
+                        <img src="images/harfresimleri/çay.png" alt="çay" class="image">
+                    </div>
+                    <div class="dropzone" id="image10">
+                        <img src="images/harfresimleri/gemi.png" alt="gemi" class="image">
+                    </div>
+                    <div class="dropzone" id="image11">
+                        <img src="images/harfresimleri/hapishane.png" alt="hapishane" class="image">
+                    </div>
+                    <div class="dropzone" id="image12">
+                        <img src="images/harfresimleri/içmek.png" alt="içmek" class="image">
+                    </div>
+                    <div class="dropzone" id="image13">
+                        <img src="images/harfresimleri/dünya.png" alt="dünya" class="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+    </body>
+    <script>
+        // Sürüklenen elemanı yakala
+        let draggedItem = null;
+       
+        // Sürüklemeyi başlat
+        document.querySelectorAll('.label').forEach(item => {
+            item.addEventListener('dragstart', function (e) {
+                draggedItem = item;
+                setTimeout(function () {
+                    item.style.display = 'none';
+                }, 0);
+            });
+
+            item.addEventListener('dragend', function () {
+                setTimeout(function () {
+                    draggedItem.style.display = 'block';
+                    draggedItem = null;
+                }, 0);
+            });
+        });
+
+        // Sürükleme alanı üzerine elemanı bırakma
+        document.querySelectorAll('.dropzone').forEach(zone => {
+            zone.addEventListener('dragover', function (e) {
+                e.preventDefault();
+            });
+
+            zone.addEventListener('drop', function (e) {
+                e.preventDefault();
+                if (this.querySelector('img').alt.toLowerCase() === draggedItem.id) {
+                    this.appendChild(draggedItem);
+                    this.classList.add('correct'); // Doğru yerleştirildiğinde görsel ipucu
+                    // Resmi sil
+                    this.querySelector('img').style.display = 'none'; // Resmi gizle
+                    checkGameOver();
+                }
+            });
+        });
+
+        // Oyun bitti mi kontrol et
+        function checkGameOver() {
+            const remainingImages = document.querySelectorAll('.dropzone img:not([style*="display: none"])');
+            if (remainingImages.length === 0) {
+                alert("Tebrikler! Tüm resimleri doğru şekilde eşleştirdin.")
+            }
+        }
+
+    // Oyunu sıfırla
+        function resetGame() {
+            clearInterval(timer);
+            timeLeft = 60;
+            document.getElementById('timer').innerText = timeLeft;
+
+            // Tüm etiketleri tekrar görünür yap
+            document.querySelectorAll('.label').forEach(label => {
+                label.style.display = 'inline-block';
+            });
+
+            // Tüm resimleri tekrar görünür yap
+            document.querySelectorAll('.dropzone img').forEach(img => {
+                img.style.display = 'block';
+                img.parentNode.classList.remove('correct'); // Doğru sınıfı kaldır
+            });
+
+            startTimer(); // Zamanlayıcıyı yeniden başlat
+        }
+        </script>

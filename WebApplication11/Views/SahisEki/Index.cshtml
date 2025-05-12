@@ -1,0 +1,193 @@
+﻿<div id="error-count">
+    Hatalı işlem sayısı: <span id="error-count-value">0</span>
+</div>
+
+<div id="container">
+    <p>Ben <span id="isim">öğretmen</span> <span id="suffix" class="dropzone"></span></p>
+    <p>Sen <span id="isim">öğretmen</span> <span id="suffix" class="dropzone"></span></p>
+    <p>O <span id="isim">öğretmen</span> <span id="suffix" class="dropzone"></span></p>
+    <p>Biz <span id="isim">öğretmen</span> <span id="suffix" class="dropzone"></span></p>
+    <p>Siz <span id="isim">öğretmen</span> <span id="suffix" class="dropzone"></span></p>
+    <p>Onlar <span id="isim">öğretmen</span> <span id="suffix" class="dropzone"></span></p>
+
+</div>
+
+<div id="suffixes">
+    <span class="draggable" draggable="true" data-suffix="-im">-im</span>
+    <span class="draggable" draggable="true" data-suffix="-ım">-ım</span>
+    <span class="draggable" draggable="true" data-suffix="-um">-um</span>
+    <span class="draggable" draggable="true" data-suffix="-üm">-üm</span>
+    <span class="draggable" draggable="true" data-suffix="-yim">-yim</span>
+    <span class="draggable" draggable="true" data-suffix="-yım">-yım</span>
+    <span class="draggable" draggable="true" data-suffix="-yum">-yum</span>
+    <span class="draggable" draggable="true" data-suffix="-yüm">-yüm</span>
+    <span class="draggable" draggable="true" data-suffix="-sın">-sın</span>
+    <span class="draggable" draggable="true" data-suffix="-sin">-sin</span>
+    <span class="draggable" draggable="true" data-suffix="-sun">-sun</span>
+    <span class="draggable" draggable="true" data-suffix="-sün">-sün</span>
+    <span class="draggable" draggable="true" data-suffix="-">-</span>
+    <span class="draggable" draggable="true" data-suffix="-ız">-ız</span>
+    <span class="draggable" draggable="true" data-suffix="-iz">-iz</span>
+    <span class="draggable" draggable="true" data-suffix="-uz">-uz</span>
+    <span class="draggable" draggable="true" data-suffix="-üz">-üz</span>
+    <span class="draggable" draggable="true" data-suffix="-yız">-yız</span>
+    <span class="draggable" draggable="true" data-suffix="-yiz">-yiz</span>
+    <span class="draggable" draggable="true" data-suffix="-yuz">-yuz</span>
+    <span class="draggable" draggable="true" data-suffix="-yüz">-yüz</span>
+    <span class="draggable" draggable="true" data-suffix="-sınız">-sınız</span>
+    <span class="draggable" draggable="true" data-suffix="-siniz">-siniz</span>
+    <span class="draggable" draggable="true" data-suffix="-sunuz">-sunuz</span>
+    <span class="draggable" draggable="true" data-suffix="-sünüz">-sünüz</span>
+    <span class="draggable" draggable="true" data-suffix="-lar">-lar</span>
+    <span class="draggable" draggable="true" data-suffix="-ler">-ler</span>
+</div>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    #container {
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    p {
+        font-size: 1.5em;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .dropzone {
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        border: 2px dashed #ccc;
+        margin-left: 15px;
+        transition: background-color 0.3s ease;
+    }
+
+        .dropzone.correct {
+            background-color: #c8f7c5;
+            border-color: #2ecc71;
+        }
+
+        .dropzone.incorrect {
+            background-color: #f7c6c6;
+            border-color: #e74c3c;
+        }
+
+    .draggable {
+        display: inline-block;
+        padding: 10px;
+        margin: 10px;
+        background-color: #eee;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        cursor: grab;
+        transition: transform 0.2s;
+    }
+
+        .draggable:hover {
+            transform: scale(1.05);
+        }
+
+    #suffixes {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .highlight {
+        background-color: #f0f8ff;
+    }
+
+    #error-count {
+        margin-top: 20px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+</style>
+<script>
+let errorCount = 0;
+
+document.querySelectorAll('.draggable').forEach(item => {
+    item.addEventListener('dragstart', function (e) {
+        e.dataTransfer.setData('text', e.target.dataset.suffix);
+    });
+});
+
+document.querySelectorAll('.dropzone').forEach(zone => {
+    zone.addEventListener('dragover', function (e) {
+        e.preventDefault();
+    });
+
+    zone.addEventListener('drop', function (e) {
+        e.preventDefault();
+        const suffix = e.dataTransfer.getData('text');
+        const zamir = e.target.parentElement.querySelector('#isim').previousSibling.textContent.trim();
+
+        let correctSuffix;
+
+        // Doğru şahıs eki kontrolü
+        switch (zamir) {
+            case 'Ben':
+                correctSuffix = '-im';
+                break;
+            case 'Sen':
+                correctSuffix = '-sin';
+                break;
+            case 'O':
+                correctSuffix = '-';
+                break;
+            case 'Biz':
+                correctSuffix = '-iz';
+                break;
+            case 'Siz':
+                correctSuffix = '-siniz';
+                break;
+            case 'Onlar':
+                correctSuffix = '-ler';
+                break;
+            default:
+                correctSuffix = '';
+        }
+
+        if (suffix === correctSuffix) {
+            e.target.innerText = suffix;
+            e.target.classList.remove('incorrect');
+            e.target.classList.add('correct');
+        } else {
+            e.target.innerText = suffix;
+            e.target.classList.remove('correct');
+            e.target.classList.add('incorrect');
+
+            // Hatalı işlem sayısını artır
+            errorCount++;
+            document.getElementById('error-count-value').innerText = errorCount;
+        }
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

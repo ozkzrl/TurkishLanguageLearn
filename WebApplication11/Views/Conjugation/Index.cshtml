@@ -1,0 +1,111 @@
+﻿@model ConjugationModel
+<style>
+    /* style.css */
+
+/* Genel Yazı Stili */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Sonuçlar */
+.result-section {
+    margin-top: 20px;
+}
+
+.result-item {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-label {
+    font-weight: bold;
+}
+
+.result-value {
+    color: #4CAF50;
+}
+
+
+
+</style>
+
+
+<div class="container text-center mt-4">
+    <h1>İsimlerin Şahıs Çekimleri</h1>
+    
+    <form asp-action="Index" method="post" class="mb-4">
+        <div class="form-group">
+            <label for="inputWord">Kelime Girin:</label>
+            <input type="text" class="form-control d-inline w-auto" id="inputWord" name="InputWord" value="@Model.InputWord" />
+        </div>
+        <button type="submit" class="btn btn-primary">Çekimle</button>
+    </form>
+
+    @if (Model.ConjugatedWords != null && Model.ConjugatedWords.Count > 0)
+    {
+        <div class="result-section mt-4">
+            <h2>Çekimlenmiş Kelimeler</h2>
+            <div class="d-flex flex-column align-items-center">
+                @foreach (var conjugation in Model.ConjugatedWords)
+                {
+                    <div class="d-flex justify-content-center mb-2">
+                        <span class="font-weight-bold mr-2">@conjugation.Key</span>
+                        <span>@conjugation.Value</span>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>
+
