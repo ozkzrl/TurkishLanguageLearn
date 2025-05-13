@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gelişmiş Renk Daire Oyunu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      text-transform: lowercase;
+    }
+    #score, #round {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    .circle-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+      position: relative;
+      height: 400px;
+      width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      cursor: pointer;
+      position: absolute;
+      transition: top 0.3s, left 0.3s;
+    }
+    #progress {
+      height: 10px;
+      width: 100%;
+      background-color: #eee;
+      margin-top: 20px;
+      position: relative;
+    }
+    #bar {
+      height: 100%;
+      background-color: green;
+      width: 0%;
+      transition: width 2s linear;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="targetColor">renk</h1>
+  <div id="score">Puan: 0</div>
+  <div id="round">Tur: 1 / 10</div>
+  <div class="circle-container" id="circles"></div>
+  <div id="progress"><div id="bar"></div></div>
+
+  <script>
+    const colorMap = {
+      "red": "kırmızı",
+      "green": "yeşil",
+      "blue": "mavi",
+      "yellow": "sarı",
+      "purple": "mor",
+      "orange": "turuncu"
+    };
+
+    const colors = Object.keys(colorMap);
+    let score = 0;
+    let round = 0;
+    const totalRounds = 10;
+    let timeout;
+
+    const CIRCLE_SIZE = 80;
+
+    function getRandomPosition(max) {
+      return Math.floor(Math.random() * (max - CIRCLE_SIZE));
+    }
+
+    function positionsOverlap(x1, y1, x2, y2) {
+      const dx = x1 - x2;
+      const dy = y1 - y2;
+      return Math.sqrt(dx * dx + dy * dy) < CIRCLE_SIZE;
+    }
+
+    function generateNonOverlappingPosition(existingPositions) {
+      let tries = 0;
+      while (tries < 1000) {
+        const top = getRandomPosition(300);
+        const left = getRandomPosition(620);
+        let overlapping = existingPositions.some(pos => positionsOverlap(left, top, pos.left, pos.top));
+        if (!overlapping) {
+          return { top, left };
+        }
+        tries++;
+      }
+      return { top: 0, left: 0 }; // fallback
+    }
+
+    function moveCircles() {
+      const circles = document.querySelectorAll('.circle');
+      let positions = [];
+      circles.forEach(circle => {
+        let { top, left } = generateNonOverlappingPosition(positions);
+        positions.push({ top, left });
+        circle.style.top = top + 'px';
+        circle.style.left = left + 'px';
+      });
+    }
+
+    function startRound() {
+      if (round >= totalRounds) {
+        if (score >= 70) {
+          alert("Tebrikler! Oyunu kazandınız. Toplam puanınız: " + score);
+        } else {
+          alert("Üzgünüz, oyunu kaybettiniz. Toplam puanınız: " + score);
+        }
+        location.reload();
+        return;
+      }
+
+      round++;
+      document.getElementById("round").textContent = `Tur: ${round} / ${totalRounds}`;
+
+      const targetColor = colors[Math.floor(Math.random() * colors.length)];
+      document.getElementById("targetColor").textContent = colorMap[targetColor];
+
+      const circlesContainer = document.getElementById("circles");
+      circlesContainer.innerHTML = "";
+
+      colors.sort(() => 0.5 - Math.random());
+
+      let positions = [];
+
+      colors.forEach(color => {
+        const circle = document.createElement("div");
+        circle.className = "circle";
+        circle.style.backgroundColor = color;
+
+        const { top, left } = generateNonOverlappingPosition(positions);
+        positions.push({ top, left });
+
+        circle.style.top = top + 'px';
+        circle.style.left = left + 'px';
+
+        circle.onclick = () => {
+          clearTimeout(timeout);
+          if (color === targetColor) {
+            score += 10;
+          } else {
+            score -= 10;
+          }
+          document.getElementById("score").textContent = "Puan: " + score;
+          startRound();
+        };
+        circlesContainer.appendChild(circle);
+      });
+
+      const bar = document.getElementById("bar");
+      bar.style.width = "0%";
+      setTimeout(() => bar.style.width = "100%", 50);
+
+      setTimeout(moveCircles, 1000);
+
+      timeout = setTimeout(() => {
+        startRound();
+      }, 2000);
+    }
+
+    startRound();
+  </script>
+</body>
+</html>
