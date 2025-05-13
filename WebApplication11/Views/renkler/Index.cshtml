@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renk Daire Oyunu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      text-transform: lowercase;
+    }
+    #score {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+    .circle-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="targetColor">renk</h1>
+  <div id="score">Puan: 0</div>
+  <div class="circle-container" id="circles"></div>
+
+  <script>
+    const colorMap = {
+      "red": "kırmızı",
+      "green": "yeşil",
+      "blue": "mavi",
+      "yellow": "sarı",
+      "purple": "mor",
+      "orange": "turuncu"
+    };
+
+    const colors = Object.keys(colorMap);
+    let score = 0;
+    let round = 0;
+    const totalRounds = 10;
+
+    function startRound() {
+      if (round >= totalRounds) {
+        if (score >= 70) {
+          alert("Tebrikler! Oyunu kazandınız. Toplam puanınız: " + score);
+        } else {
+          alert("Üzgünüz, oyunu kaybettiniz. Toplam puanınız: " + score);
+        }
+        location.reload();
+        return;
+      }
+      round++;
+      const targetColor = colors[Math.floor(Math.random() * colors.length)];
+      document.getElementById("targetColor").textContent = colorMap[targetColor];
+
+      const circlesContainer = document.getElementById("circles");
+      circlesContainer.innerHTML = "";
+
+      colors.sort(() => 0.5 - Math.random());
+
+      colors.forEach(color => {
+        const circle = document.createElement("div");
+        circle.className = "circle";
+        circle.style.backgroundColor = color;
+        circle.onclick = () => {
+          if (color === targetColor) {
+            score += 10;
+          } else {
+            score -= 10;
+          }
+          document.getElementById("score").textContent = "Puan: " + score;
+        };
+        circlesContainer.appendChild(circle);
+      });
+
+      setTimeout(startRound, 2000);
+    }
+
+    startRound();
+  </script>
+</body>
+</html>

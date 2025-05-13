@@ -27,7 +27,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=kelimesec}/{action=Index}/{id?}");
+    pattern: "{controller=renkler}/{action=Index}/{id?}");
 
 app.Run();
 
